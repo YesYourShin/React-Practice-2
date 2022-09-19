@@ -1,28 +1,11 @@
 // import './App.css';
-import Container from './Container';
-import Counter from './Counter';
-import MyHeader from './MyHeader';
 
 function App() {
-    const number = 5;
-
-    const counterProps = {
-        a: 1,
-        b: 2,
-        c: 3,
-        d: 4,
-        e: 5,
-        initialValue: number,
-    };
-
-    return (
-        <Container>
-            <div className="App">
-                <MyHeader />
-                <Counter {...counterProps} />
-            </div>
-        </Container>
-    );
+  return (
+    <div className="App">
+      <h2>hello world</h2>
+    </div>
+  );
 }
 
 export default App;
